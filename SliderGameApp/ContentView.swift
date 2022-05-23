@@ -21,7 +21,7 @@ struct ContentView: View {
                     .multilineTextAlignment(.center)
                 HStack {
                     Text("0")
-                    SliderView(value: $sliderValue, targetNumber: targetNumber)
+                    SliderView(value: $sliderValue, difference: computeScore())
                     Text("100")
                 }
                 Button(action: showAlert) {
