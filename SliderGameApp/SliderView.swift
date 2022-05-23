@@ -25,8 +25,6 @@ struct SliderView: UIViewRepresentable {
 
     func updateUIView(_ uiView: UISlider, context: Context) {
         let thumbOpacity = Double(difference) / 100
-        print(difference)
-        print(thumbOpacity)
         uiView.value = Float(value)
         uiView.thumbTintColor = .red.withAlphaComponent(thumbOpacity)
     }
