@@ -11,7 +11,7 @@
 		7074828A283BB27B0081228B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70748289283BB27B0081228B /* ContentView.swift */; };
 		7074828C283BB27D0081228B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7074828B283BB27D0081228B /* Assets.xcassets */; };
 		7074828F283BB27D0081228B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7074828E283BB27D0081228B /* Preview Assets.xcassets */; };
-		70748296283BB3310081228B /* UISliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70748295283BB3310081228B /* UISliderView.swift */; };
+		70748296283BB3310081228B /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70748295283BB3310081228B /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,7 +20,7 @@
 		70748289283BB27B0081228B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7074828B283BB27D0081228B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7074828E283BB27D0081228B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		70748295283BB3310081228B /* UISliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UISliderView.swift; sourceTree = "<group>"; };
+		70748295283BB3310081228B /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				70748287283BB27B0081228B /* SliderGameAppApp.swift */,
 				70748289283BB27B0081228B /* ContentView.swift */,
-				70748295283BB3310081228B /* UISliderView.swift */,
+				70748295283BB3310081228B /* SliderView.swift */,
 				7074828B283BB27D0081228B /* Assets.xcassets */,
 				7074828D283BB27D0081228B /* Preview Content */,
 			);
@@ -142,7 +142,7 @@
 			files = (
 				7074828A283BB27B0081228B /* ContentView.swift in Sources */,
 				70748288283BB27B0081228B /* SliderGameAppApp.swift in Sources */,
-				70748296283BB3310081228B /* UISliderView.swift in Sources */,
+				70748296283BB3310081228B /* SliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
