@@ -24,13 +24,15 @@ struct SliderView: UIViewRepresentable {
     }
 
     func updateUIView(_ uiView: UISlider, context: Context) {
-        let thumbOpacity = Double(difference) / value
+        let thumbOpacity = Double(difference) / 100
+        print(difference)
+        print(thumbOpacity)
         uiView.value = Float(value)
         uiView.thumbTintColor = .red.withAlphaComponent(thumbOpacity)
     }
 
     func makeCoordinator() -> Coordinator {
-        Coordinator(value: $value, targetNumber: difference)
+        Coordinator(value: $value, difference: difference)
     }
 }
 
@@ -38,11 +40,11 @@ extension SliderView {
     
     final class Coordinator: NSObject {
         @Binding var value: Double
-        var targetNumber: Int
+        var difference: Int
 
-        init(value: Binding<Double>, targetNumber: Int) {
+        init(value: Binding<Double>, difference: Int) {
             self._value = value
-            self.targetNumber = targetNumber
+            self.difference = difference
         }
 
         @objc func sliderValueChanged(_ sender: UISlider) {
